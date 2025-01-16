@@ -1,14 +1,14 @@
 <!-- Unit 7 Project
 Requirements
-[  ] three variables
-[  ] animation that moves position
-[  ] animation that changes size
-[  ] three new HTML elements/CSS Declarations
+[ yes ] three variables
+[ yes ] animation that moves position
+[ yes ] animation that changes size
+[ yes ] three new HTML elements/CSS Declarations
 
 Select ONE Additional 
 [ no ] Feature 1 - Use an Incrementing Shortcut 
 [ no ] Feature 2 - Move Object with Mouse
-[ no ] Feature 3 - Repeat Animation
+[ yes ] Feature 3 - Repeat Animation
 [ no ] Feature 4 - Text on the Canvas
 [ no ] Feature 5 - Animate a color change
 -->
@@ -22,25 +22,56 @@ Select ONE Additional
     <title>Unit 7 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+    <style>
+    
+      #year { font-family: italic;
+        
+         }
+      #list { font-family: italic; 
+        
+        
+      }
+     #list2 { font-family: italic;
+        
+        
+      }
+      
+       #list3 { font-family: italic;
+        
+        
+      }
+      #year { font-family: bold;
+      
+      }
+    
+      
+      
+    </style>
   </head>
 
   <body>
-    <h1>
+   
+   
+   
+    <h1 id="year"> 
       New Year, New Me
     </h1>
     <div class="main">
       <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
-      <div>
+      <div>    
+   
         <h2>
           2025 Goals
         </h2>
         <ol>
-          <li>Spend More Time Coding </li>
-        </ol>
+          <li id= "list">Audition for solos! </li>
+          <li id= "list2">Gain more friends outside of school!</li>
+          <li id= "list3">Be a bit less awkward..</li>
+      <iframe
+       src= "https://open.spotify.com/embed/track/4lJjVASVLA8m4RJUCD6MPL?utm_source=generator" width="79%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"/>  </ol>
       </div>
     </div>
-        
+       
   </body>
 </html>
 
